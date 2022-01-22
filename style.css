@@ -1,0 +1,66 @@
+body {
+  background-color: burlywood;
+}
+
+div {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 1500px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 1500px;
+    top: -70px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: -70px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+h1 {
+  font-family: verdana;
+  color: brown;
+  text-align: center;
+}
+
+h2 {
+  font-family: verdana;
+  color: brown;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  margin-left: 34px;
+}
+
+ol {
+  font-family: verdana;
+  font-size: 20px;
+}
